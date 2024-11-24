@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    
+   
+}
+
+.app{
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(133, 140, 146);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px;
+    background-color: rgb(66, 70, 73);
+    height: 200px;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+
+
+}
+
+.board{
+    margin: 0px auto;  
+    padding: 50px;
+    /* margin-top: 50px; */
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    /* flex-wrap: wrap;  */
+    flex-direction: column;
+   
+    flex: 1;
+  
+
+}
+
+
+.box{
+
+    align-content: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    /* background-color:bisque; */
+    /* padding: 5px; */
+  
+    
+}
+
+.turn h1{
+  
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+
+}
+.square {
+    background-color:bisque;
+   
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    border: 5px;
+   font-size: 75px;
+    font-family: sans-serif;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-radius: 20%; */
+    cursor: pointer;
+    
+    border-color: black;
+    box-shadow: 1px 1px 1px 4px;
+}
+.square:hover {
+    background-color:rgb(167, 146, 121);
+}
+
+.button {
+    margin: 0px auto;
+    padding: 18px;
+    background-color:bisque ;
+    margin-top: 50px;
+    width: max-content;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+    font-size: larger;
+    
+    
+}
+.button:hover{
+    background-color:rgb(167, 146, 121);
+    
+    
+    
+}
+.winner {
+    text-align: center;
+    padding: 40px;
+}
+
+.footer{
+    
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(63, 63, 63) ;
+    text-align: center;
+    height: 100px;
+    color:whitesmoke;
+}
