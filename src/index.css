@@ -18,11 +18,10 @@
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    border: 10px;
     background-color: rgb(66, 70, 73);
     height: 200px;
     color: rgb(255, 255, 255);
-    font-size: 45px;
+    font-size: 40px;
 
 
 }
@@ -50,7 +49,7 @@
     display: flex;
     flex-direction: row;
     /* background-color:bisque; */
-    /* padding: 5px; */
+    padding: 0px;
   
     
 }
@@ -60,17 +59,17 @@
     text-align: center;
     padding: 20px;
     margin: 10px;
+    font-size: 20px;
     
 
 }
 .square {
-    background-color:bisque;
-   
-    margin: 5px;
-    height: 150px;
-    width: 150px;
+    background-color:bisque;  
+    margin: 2px;
+    height: 80px;
+    width: 80px;
     border: 5px;
-   font-size: 75px;
+    font-size: 45px;
     font-family: sans-serif;
     align-content: center;
     justify-content: center;
@@ -80,7 +79,7 @@
     cursor: pointer;
     
     border-color: black;
-    box-shadow: 1px 1px 1px 4px;
+    box-shadow: 1px 1px 1px 2px;
 }
 .square:hover {
     background-color:rgb(167, 146, 121);
@@ -88,15 +87,15 @@
 
 .button {
     margin: 0px auto;
-    padding: 18px;
+    padding: 14px;
     background-color:bisque ;
-    margin-top: 50px;
+    margin-top: 40px;
     width: max-content;
     border: none;
     border-radius: 8px;
     cursor: pointer;
     color: black;
-    font-size: larger;
+    font-size: 13px;
     
     
 }
@@ -121,4 +120,15 @@
     text-align: center;
     height: 100px;
     color:whitesmoke;
+}
+
+@media (max-width: 605px ){
+    
+.square {
+    
+    height: 60px;
+    width: 60px;
+    
+}
+
 }

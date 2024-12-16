@@ -133,7 +133,7 @@ function Square({value, onclick}){
 
 function Win({ winner, player, draw }) {
   return (
-    <div>
+    <div className='turn'>
       {winner ? ( // If there is a winner
         <h1 className="winner">{winner} wins!</h1>
       ) :( draw ? (
